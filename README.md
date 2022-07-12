@@ -13,7 +13,19 @@ The goal of hackstofan is to …
 You can install the development version of hackstofan like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+install.packages("devtools")
+
+library(devtools)
+
+dev_mode(on=T)
+
+install_github("nokkvi-samband/Hackstofan")
+
+# use dev ggplot2 now
+
+# when finished do:
+
+dev_mode(on=F)
 ```
 
 ## Example
